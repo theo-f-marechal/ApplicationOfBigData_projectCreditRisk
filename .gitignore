@@ -1,5 +1,9 @@
 # ignore all csv
 *.csv
+./Data/*
+
+# ignore all models
+/Model/
 
 .ipynb_checkpoints
 
