@@ -52,6 +52,8 @@ dependencies:
   - wheel=0.37.0=pyhd3eb1b0_1
   - wincertstore=0.2=py39haa95532_2
   - zlib=1.2.11=h62dcd97_4
+  - matplotlib
+  - MLflow 
   - pip:
     - alabaster==0.7.12
     - babel==2.9.1
