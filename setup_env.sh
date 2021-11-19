@@ -8,3 +8,4 @@ conda install -c anaconda ipykernel -y
 python -m ipykernel install --user --name=ABD
 mkdir Model
 mkdir Data
+jupyter notebook
