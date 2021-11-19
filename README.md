@@ -44,9 +44,10 @@ The datasets used come from : https://www.kaggle.com/c/home-credit-default-risk/
 ## Project output 
 
 ### MLflow ui
+![MLflow ui](https://raw.githubusercontent.com/theo-f-marechal/ApplicationOfBigData_projectCreditRisk/main/Pictures/chrome_XOrm5i5MAY.png)
 
 ### Shap
-![Tree explainer](https://raw.githubusercontent.com/theo-f-marechal/ApplicationOfBigData_projectCreditRisk/main/Pictures/chrome_19Ihascy51.png)
+![XGBoost Tree explainer](https://raw.githubusercontent.com/theo-f-marechal/ApplicationOfBigData_projectCreditRisk/main/Pictures/chrome_KVE3DxDIVm.png)
 
 ## Sources
 
