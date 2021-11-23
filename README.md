@@ -28,6 +28,8 @@ A repository for Ly Jean, Tang Jérémy, and Maréchal Théo's "Application of b
       * **Mlflow.ipynb** : A notebook used to evaluate the trained models
       * **SHAP.ipynb** : A notebook that uses Shap to graphically explain the trained models
       * **mlruns** : A directory created when using MLflow which contains the runs' logs
+    * **Pictures** : A directory containing the Readme's pictures
+    * **doc** : A directory containing sphinx
     * **ReadMe.md** : The file you are currently reading
     * **environment.yml** : A yml file used to build the Conda environment used by Jupyter.
     * **setup_env.sh** : A bash file that setups the project workspace by creating files not stocked on the git, the Conda environment, and linking the Conda env and Jupyter.
