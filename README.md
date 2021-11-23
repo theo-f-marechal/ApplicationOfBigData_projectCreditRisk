@@ -10,9 +10,12 @@ A repository for Ly Jean, Tang Jérémy, and Maréchal Théo's "Application of b
 
   * **ApplicationOfBigData_projectCreditRisk** : the root directory of the project
     * **Data** : the directory containing all the data used for the project
-      * **application_train.csv** : The initial dataset, its contain information about loans and loans applicants (at application time), each line is a unique application 
+      * **application_train.csv** : The initial train dataset, its contain information about loans and loans applicants (at application time), each line is a unique application 
       * **dataset_prepared.csv** : The previous dataset but with all useless (for that project) features removed, empty or null data are filled when possible, and absurd numerical data removed 
       * **dataset_final.csv** : The previous dataset but with a one-hot encoding of the categorical features, it's the dataset used for training and testing models
+      * **application_test.csv** : The initial test dataset, its contain information about loans and loans applicants (at application time), each line is a unique application 
+      * **dataset_test_prepared.csv** : The previous test dataset but with all useless (for that project) features removed, empty or null data are filled when possible, and absurd numerical data removed 
+      * **dataset_test_final.csv** : The previous test dataset but with a one-hot encoding of the categorical features, it's the dataset used for training and testing models
     * **Model** : the directory containing all the models trained for that project saved as pickled files
       * **GradientBoosting.pkl** : A gradient boosting model
       * **RandomForest.pkl** : A random forest model 
@@ -20,8 +23,8 @@ A repository for Ly Jean, Tang Jérémy, and Maréchal Théo's "Application of b
     * **Notebook** : The directory containing the 6 notebooks used for that project 
       * **Data_preparation.ipynb** : A notebook which collect the data from application_train.csv come from a [Kaggle contest](.csv and create dataset_prepared.csv
       * **Features_engineering.ipynb** : A notebook that collects the data from dataset_prepared.csv and creates dataset_final.csv
-      * **Model_training.ipynb**: A notebook that splits the data from dataset_final.csv into a test and a training dataset, then used the training dataset to train the 3 models 
-      * **Predict.ipynb** : A notebook that imports the trained models and test their performances on the test dataset 
+      * **Model_training.ipynb**: A notebook that splits the data from dataset_final.csv into a test and a training dataset, then used the training dataset to train the 3 models and test their performances on a validation dataset created with the train_test_split
+      * **Predict.ipynb** : A notebook that imports the trained models and make some predictions on random data from the dataset_test_final.csv
       * **Mlflow.ipynb** : A notebook used to evaluate the trained models
       * **SHAP.ipynb** : A notebook that uses Shap to graphically explain the trained models
       * **mlruns** : A directory created when using MLflow which contains the runs' logs
